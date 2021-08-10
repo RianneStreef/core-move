@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form() {
   return (
-    <form name="contact" method="post" data-netlify="true">
+    <form name="contactCoreMove" method="post" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Name</label> <br />
