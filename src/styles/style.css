@@ -1,0 +1,35 @@
+:root {
+  --color-highlight: #dedede;
+  --color-light: #abe9ef;
+  --color-dark: #30838c;
+}
+
+.content {
+  padding: 20px 60px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-dark);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.button {
+  color: #000;
+  background-color: var(--color-highlight);
+  border: solid 4px var(--color-highlight);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  transition: border 500ms ease-in;
+
+}
+
+.button:hover {
+  border: solid 4px var(--color-light);
+  transition: border 500ms ease-in;
+}

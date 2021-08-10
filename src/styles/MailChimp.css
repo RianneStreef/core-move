@@ -1,0 +1,14 @@
+.subscribe-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe {
+
+}
+
+.subscribe-input {
+  display: flex;
+  flex-direction: column;
+}
