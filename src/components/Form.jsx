@@ -5,11 +5,16 @@ import "../styles/Form.css";
 export default function Form() {
   return (
     <form
-      className="contact-form"
-      name="contactCoreMove"
-      method="post"
+      name="contact"
+      method="POST"
+      netlify-honeypot="bot-field"
       data-netlify="true"
     >
+      <p className="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
       <input type="hidden" name="form-name" value="contact" />
       <p className="form-options">
         {" "}
