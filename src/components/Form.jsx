@@ -14,7 +14,7 @@ export default function Form() {
       <p className="form-options">
         {" "}
         <label className="form-item" htmlFor="name">
-          Name
+          Naam:
         </label>{" "}
         <br />
         <input
@@ -28,7 +28,7 @@ export default function Form() {
       <p className="form-options">
         {" "}
         <label className="form-item" htmlFor="email">
-          Email
+          Email:
         </label>{" "}
         <br />
         <input
@@ -41,7 +41,7 @@ export default function Form() {
       </p>
       <p className="form-options">
         <label className="form-item" htmlFor="message">
-          Bericht
+          Bericht:
         </label>{" "}
         <br />
         <textarea
