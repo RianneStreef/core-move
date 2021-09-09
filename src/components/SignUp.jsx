@@ -48,11 +48,9 @@ export default class SignUp extends React.Component {
   // };
 
   render() {
-    return (
-      <h1>SignUp</h1>
-      // <form onSubmit={this._handleSubmit(email)}>
-      //   <input value="email" />
-      // </form>
-    );
+    return null;
+    // <form onSubmit={this._handleSubmit(email)}>
+    //   <input value="email" />
+    // </form>
   }
 }

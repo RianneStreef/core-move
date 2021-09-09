@@ -26,10 +26,33 @@ body {
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
   transition: border 500ms ease-in;
-
+  text-decoration: none;
 }
 
 .button:hover {
   border: solid 4px var(--color-light);
   transition: border 500ms ease-in;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-text {
+  width: 50%; 
+  padding: 20px;
+}
+
+.detail-img-div {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.padding {
+  padding: 20px;
 }

@@ -5,10 +5,17 @@
 }
 
 .subscribe {
-
+  width: 60%;
 }
 
 .subscribe-input {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
+
+input {
+  padding: 10px;
+
+}
+

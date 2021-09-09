@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+}
+
+.intro-img {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+
+}
+
+img {
+  width: 100%;
+}

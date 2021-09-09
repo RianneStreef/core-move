@@ -1,6 +1,13 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/Layout.jsx";
+
+import "../styles/index.css";
+
+import base from "../images/intro-core.jpeg";
+import mama from "../images/intro-mama.jpeg";
+import work from "../images/intro-werk.jpeg";
 
 const IndexPage = () => {
   return (
@@ -24,26 +31,62 @@ const IndexPage = () => {
             te leren aanvoelen wat jouw lijf nodig heeft.
           </p>
           <div className="intro intro-base">
-            <h3>core • base</h3>
-            <h4>preventie • stabiliteit • functionaliteit • training</h4>
-            <p>
-              Je lichaam is gemaakt om te bewegen. Door teveel aan inactiviteit
-              kan het lichaam ‘vergeten’ hoe te bewegen. Door middel van de
-              juiste combinatie van aanspannen, ontspannen, rekken en
-              doorbloeden kun je dat omkeren. Het is geen rocket-sience. Let me
-              show you how. Voor een duurzame verandering.
-            </p>
-            <button className="button">Learn more</button>
+            <div className="intro-img">
+              <img src={base} alt="base" />
+            </div>
+            <div className="intro-text">
+              <h3>core • base</h3>
+              <h4>preventie • stabiliteit • functionaliteit • training</h4>
+              <p>
+                Je lichaam is gemaakt om te bewegen. Door teveel aan
+                inactiviteit kan het lichaam ‘vergeten’ hoe te bewegen. Door
+                middel van de juiste combinatie van aanspannen, ontspannen,
+                rekken en doorbloeden kun je dat omkeren. Het is geen
+                rocket-sience. Let me show you how. Voor een duurzame
+                verandering.
+              </p>
+              <Link to="/base/" className="button">
+                Learn more
+              </Link>
+            </div>
           </div>
           <div className="intro intro-mama">
-            <h3>core • mama</h3>
-            <h4>Rebuild core & pelvic floor</h4>
-            <p>
-              Post-natale training op maat specifiek voor de core voor mama’s.
-              Iedere nieuwe mama moet dit zichzelf gunnen! Het voorkomt klachten
-              en zorgt dat jij op een goede manier goed en fit wordt.
-            </p>
-            <button className="button">Learn more</button>
+            <div className="intro-text">
+              <h3>core • mama</h3>
+              <h4>Rebuild core & pelvic floor</h4>
+              <p>
+                Post-natale training op maat specifiek voor de core voor mama’s.
+                Iedere nieuwe mama moet dit zichzelf gunnen! Het voorkomt
+                klachten en zorgt dat jij op een goede manier goed en fit wordt.
+              </p>
+              <Link to="/mama/" className="button">
+                Learn more
+              </Link>
+            </div>
+            <div className="intro-img">
+              <img src={mama} alt="mama" />
+            </div>
+          </div>
+          <div className="intro intro-work">
+            <div className="intro-img">
+              <img src={work} alt="work" />
+            </div>
+            <div className="intro-text">
+              <h3>core • werk</h3>
+              <h4>workspace - physical health coaching</h4>
+              <p>
+                Inactiviteit of een inactieve houding is een grote oorzaak voor
+                langdurige klachten. Achter de computer in de juiste houding,
+                hoe ziet dat er uit en hoe moet dat voelen? Plan je genoeg
+                beweging in tussendoor? Hoe en wat kun je doen om dat te
+                implementeren in je dagelijkse werkleven? let us help;
+                oefeningen, tips en houdingcorrecties op maat voor jou! Thuis of
+                op kantoor. Persoonlijk plan voor iedereen.
+              </p>
+              <Link to="/mama/" className="button">
+                Learn more
+              </Link>
+            </div>
           </div>
         </div>
       </Layout>

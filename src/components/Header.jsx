@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import NavMenu from "./NavMenu";
 
@@ -9,7 +10,9 @@ import "../styles/Header.css";
 const Header = () => {
   return (
     <div className="header-container">
-      <img src={logo} alt="Logo" />
+      <Link className="header-link" to="/">
+        <img className="logo" src={logo} alt="Logo" />
+      </Link>
       <NavMenu />
     </div>
   );

@@ -1,8 +1,16 @@
 .contact{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.contact-left, .contact-right  {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 40%;
 }
 
 .contact-link {

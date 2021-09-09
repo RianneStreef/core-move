@@ -23,6 +23,9 @@ const NavMenu = () => {
           <li className="nav-menu-item">
             <Link to="/tarieven">tarieven</Link>
           </li>
+          <li className="nav-menu-item">
+            <Link to="/contact">contact</Link>
+          </li>
         </ul>
       </nav>
     </div>

@@ -6,7 +6,7 @@ import "../styles/MailChimp.css";
 
 const MailChimp = () => {
   return (
-    <div className="mail-chimp content">
+    <div className="mail-chimp content padding">
       <h2>Meld je aan voor meer informatie</h2>
       <p>
         Wil op graag op de hoogte gehouden worden? Schrijf je nu in voor de
