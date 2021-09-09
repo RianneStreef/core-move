@@ -3,6 +3,10 @@
   flex-direction: row;
 }
 
+.intro-paragraph {
+  margin: 80px;
+}
+
 .intro-text {
   display: flex;
   flex-direction: column;

@@ -1,10 +1,19 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout.jsx";
 
 const MamaPage = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Core Move - Mama </title>
+        <meta
+          name="description"
+          content="Learn how to adjust • implement in your daily routine • feel the difference"
+        />
+      </Helmet>
       <Layout>
         <div className="content">
           <h2>Core • Mama</h2>

@@ -14,8 +14,26 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.8;
 }
 
+h1, h2, h3, h4, p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+h3 {
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.2em;
+  color: var(--color-highlight)
+}
 
 .button {
   color: #000;
@@ -55,4 +73,19 @@ body {
 
 .padding {
   padding: 20px;
+}
+
+a.button {
+  max-width: 100px;
+}
+
+input, textarea {
+  border: solid 2px var(--color-highlight);
+  border-radius: 5px;
+  background-color: var(--color-dark);
+}
+
+::placeholder {
+  color:var(--color-highlight);
+  opacity: 1;
 }

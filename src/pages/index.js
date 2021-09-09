@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 import Layout from "../components/Layout.jsx";
 
@@ -12,24 +13,35 @@ import work from "../images/intro-werk.jpeg";
 const IndexPage = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Core Move - Home </title>
+        <meta
+          name="description"
+          content="Learn how to adjust • implement in your daily routine • feel the difference"
+        />
+      </Helmet>
       <Layout>
         <div className="content">
-          <h2>Activate your inner strength.</h2>
-          <p>
-            Mijn verbazing is nog altijd groot als ik terug kijk. In de
-            fysiotherapie kwam ik alledaagse klachten tegen maar al snel kwam ik
-            er achter dat de nek en rugklachten maar ook heup/knie en
-            schouder/pols klachten bijna altijd te relateren zijn aan een
-            inactieve leefstijl of inactiviteit door bijvoorbeeld kantoorwerk.
-            30 minuten achter elkaar bewegen per dag is de beweegnorm. Cijfers
-            laten zien dat 45% daar maar aan voldoet — je lichaam vergeet hoe te
-            bewegen door te weinig bewegen. Vaak al op jonge leeftijd door het
-            vele zitten op school. Door training en tips op maat kun je
-            preventief te werk gaan. Zorgen voor een persoonlijk fitheidsniveau
-            waar je echt verder op kunt borduren. En voor de volgende valkuil
-            weten wat je kunt doen. Doel is om je eigen therapeut te worden en
-            te leren aanvoelen wat jouw lijf nodig heeft.
-          </p>
+          <div className="intro-paragraph">
+            <h2>Activate your inner strength.</h2>
+            <p>
+              Mijn verbazing is nog altijd groot als ik terug kijk. In de
+              fysiotherapie kwam ik alledaagse klachten tegen maar al snel kwam
+              ik er achter dat de nek en rugklachten maar ook heup/knie en
+              schouder/pols klachten bijna altijd te relateren zijn aan een
+              inactieve leefstijl of inactiviteit door bijvoorbeeld kantoorwerk.
+              30 minuten achter elkaar bewegen per dag is de beweegnorm. Cijfers
+              laten zien dat 45% daar maar aan voldoet — je lichaam vergeet hoe
+              te bewegen door te weinig bewegen. Vaak al op jonge leeftijd door
+              het vele zitten op school. Door training en tips op maat kun je
+              preventief te werk gaan. Zorgen voor een persoonlijk
+              fitheidsniveau waar je echt verder op kunt borduren. En voor de
+              volgende valkuil weten wat je kunt doen. Doel is om je eigen
+              therapeut te worden en te leren aanvoelen wat jouw lijf nodig
+              heeft.
+            </p>
+          </div>
           <div className="intro intro-base">
             <div className="intro-img">
               <img src={base} alt="base" />
@@ -45,9 +57,11 @@ const IndexPage = () => {
                 rocket-sience. Let me show you how. Voor een duurzame
                 verandering.
               </p>
-              <Link to="/base/" className="button">
-                Learn more
-              </Link>
+              <div className="button-container">
+                <Link to="/base/" className="button">
+                  Learn more
+                </Link>
+              </div>
             </div>
           </div>
           <div className="intro intro-mama">
@@ -59,9 +73,11 @@ const IndexPage = () => {
                 Iedere nieuwe mama moet dit zichzelf gunnen! Het voorkomt
                 klachten en zorgt dat jij op een goede manier goed en fit wordt.
               </p>
-              <Link to="/mama/" className="button">
-                Learn more
-              </Link>
+              <div className="button-container">
+                <Link to="/mama/" className="button">
+                  Learn more
+                </Link>
+              </div>
             </div>
             <div className="intro-img">
               <img src={mama} alt="mama" />
@@ -83,9 +99,11 @@ const IndexPage = () => {
                 oefeningen, tips en houdingcorrecties op maat voor jou! Thuis of
                 op kantoor. Persoonlijk plan voor iedereen.
               </p>
-              <Link to="/mama/" className="button">
-                Learn more
-              </Link>
+              <div className="button-container">
+                <Link to="/mama/" className="button">
+                  Learn more
+                </Link>
+              </div>
             </div>
           </div>
         </div>

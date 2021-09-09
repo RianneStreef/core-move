@@ -42,7 +42,7 @@ export default function Form() {
       <p className="form-options">
         <label className="form-item" htmlFor="message">
           Bericht:
-        </label>{" "}
+        </label>
         <br />
         <textarea
           className="form-item"
@@ -52,9 +52,9 @@ export default function Form() {
           required
         ></textarea>
       </p>
-      <p className="button-container">
-        <input className="button" type="submit" value="Submit message" />
-      </p>
+      <div className="button-container">
+        <input className="button" type="submit" value="Stuur bericht" />
+      </div>
     </form>
   );
 }

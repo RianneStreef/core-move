@@ -1,6 +1,7 @@
 import React from "react";
 
 import Layout from "../components/Layout.jsx";
+import { Helmet } from "react-helmet";
 
 import maxime from "../images/maxime.jpeg";
 
@@ -9,6 +10,14 @@ import "../styles/about.css";
 const AboutPage = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Core Move - About </title>
+        <meta
+          name="description"
+          content="Learn how to adjust • implement in your daily routine • feel the difference"
+        />
+      </Helmet>
       <Layout>
         <div className="content">
           <h2>About me</h2>

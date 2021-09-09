@@ -2,10 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 
-.subscribe {
-  width: 60%;
+.subscribe-text {
+  text-align: center;
+
 }
 
 .subscribe-input {
