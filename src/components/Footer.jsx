@@ -8,7 +8,7 @@ import "../styles/Footer.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faPhoneAlt, faEnvelop } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,18 +16,22 @@ const Footer = () => {
       <MailChimp />
       <SignUp />
       <p className="contact-footer">
-        <FontAwesomeIcon
-          className="contact-icon"
-          icon={faEnvelop}
-          size="1.5x"
-        />
-        info@coremove.nl -
-        <FontAwesomeIcon
-          className="contact-icon"
-          icon={faPhoneAlt}
-          size="1.5x"
-        />
-        0618756511
+        <a href="mailto:info@coremove.nl">
+          <FontAwesomeIcon
+            className="contact-icon"
+            icon={faEnvelope}
+            size="1x"
+          />
+          info@coremove.nl -
+        </a>
+        <a href="tel:0031618756511">
+          <FontAwesomeIcon
+            className="contact-icon"
+            icon={faPhoneAlt}
+            size="1x"
+          />
+          0618756511
+        </a>
       </p>
       <Copyright />
     </div>

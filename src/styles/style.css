@@ -5,7 +5,13 @@
 }
 
 .content {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .content{
   padding: 20px 60px;
+  }
 }
 
 body {
@@ -54,20 +60,36 @@ h4 {
 
 .detail-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .detail-info{
+ flex-direction: row;
+  }
 }
 
 .detail-text {
-  width: 50%; 
+  width: 90%; 
   padding: 20px;
 }
 
+@media (min-width: 768px) {
+  .detail-text{
+    width: 50%;   }
+}
+
 .detail-img-div {
-  width: 50%;
+  width: 90%;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .detail-img-div{
+    width: 50%;   }
 }
 
 

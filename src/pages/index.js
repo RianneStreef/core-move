@@ -20,6 +20,10 @@ const IndexPage = () => {
           name="description"
           content="Learn how to adjust • implement in your daily routine • feel the difference"
         />
+        <meta
+          name="keywords"
+          content="Core, Fysio therapie, Den Haag, balans, mama, moeder, houding"
+        />
       </Helmet>
       <Layout>
         <div className="content">

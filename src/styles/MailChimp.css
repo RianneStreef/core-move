@@ -3,13 +3,28 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 80%;
 }
+
+@media (min-width: 768px) {
+  .subscribe-component {
+  width: 50%
+  }
+}
+
 
 .subscribe-text {
   text-align: center;
+  font-size: 0.8em;
 
 }
+
+@media (min-width: 768px) {
+  .subscribe-text {
+  font-size: 1em;
+  }
+}
+
 
 .subscribe-input {
   display: flex;

@@ -1,8 +1,13 @@
 .contact{
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   justify-content: space-around;
+}
 
+@media (min-width: 768px) {
+  .contact{
+    flex-direction: row;
+  }
 }
 
 .contact-left, .contact-right  {
@@ -10,8 +15,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+
 }
+
+@media (min-width: 768px) {
+  .contact-left, .contact-right{
+    width: 40%;
+  }
+}
+
 
 .contact-link {
   color: #fff

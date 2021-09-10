@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import NavMenu from "./NavMenu";
+import Navbar from "../components/nav/Navbar";
 
 import logo from "../images/logo.png";
 
@@ -13,7 +13,7 @@ const Header = () => {
       <Link className="header-link" to="/">
         <img className="logo" src={logo} alt="Logo" />
       </Link>
-      <NavMenu />
+      <Navbar />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Copyright = () => {
         Created by:{" "}
         <b>
           Rianne Streef
-          <a href="http://www.riannestreef.com" target="blank"></a>
+          <a href="http://www.vts-webdesign.com" target="blank"></a>
         </b>
       </p>
     </div>
