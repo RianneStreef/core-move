@@ -92,7 +92,7 @@ const IndexPage = () => {
               <img src={work} alt="work" />
             </div>
             <div className="intro-text">
-              <h3>core • werk</h3>
+              <h3>core • work</h3>
               <h4>workspace - physical health coaching</h4>
               <p>
                 Inactiviteit of een inactieve houding is een grote oorzaak voor

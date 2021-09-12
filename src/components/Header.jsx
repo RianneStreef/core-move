@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import Navbar from "../components/nav/Navbar";
+import Navbar from "../components/Nav/Navbar";
 
 import logo from "../images/logo.png";
 
