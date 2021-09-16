@@ -105,10 +105,15 @@ input, textarea {
   border: solid 2px var(--color-highlight);
   border-radius: 5px;
   background-color: var(--color-dark);
-  color: #fff
+  color: #fff;
+  margin: auto;
 }
 
 ::placeholder {
   color:var(--color-highlight);
   opacity: 1;
+}
+
+.align-left {
+  text-align: left;
 }

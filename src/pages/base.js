@@ -84,10 +84,10 @@ const BasePage = () => {
           <p>
             Vanuit daar wordt er een bewegingsplan opgesteld en worden de
             technieken aangeleerd. Een bewegingsplan maken we samen. Zodat we er
-            op een duurzame manier voor zorgen dat het blijvend is. de volgende
+            op een duurzame manier voor zorgen dat het blijvend is. De volgende
             plannen zijn mogelijk:
           </p>
-          <p>Mogelijkheden:</p>
+
           <ul>
             <li>
               gratis screening - status preasens -

@@ -7,7 +7,6 @@ import "../../styles/nav.css";
 const Nav = styled.nav`
   min-height: 55px;
   width: 100%;
-  padding: 0 20px;
   display: flex;
   justify-content: center;
 `;

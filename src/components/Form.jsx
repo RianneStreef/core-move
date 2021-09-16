@@ -9,6 +9,7 @@ export default function Form() {
       method="POST"
       netlify-honeypot="bot-field"
       data-netlify="true"
+      className="form"
     >
       <p className="hidden">
         <label>
@@ -21,7 +22,6 @@ export default function Form() {
         <label className="form-item" htmlFor="name">
           Naam:
         </label>{" "}
-        <br />
         <input
           className="form-item"
           type="text"
@@ -35,7 +35,6 @@ export default function Form() {
         <label className="form-item" htmlFor="email">
           Email:
         </label>{" "}
-        <br />
         <input
           className="form-item"
           type="email"
@@ -48,9 +47,9 @@ export default function Form() {
         <label className="form-item" htmlFor="message">
           Bericht:
         </label>
-        <br />
+
         <textarea
-          className="form-item"
+          className="form-item text-area"
           id="message"
           name="message"
           rows="10"

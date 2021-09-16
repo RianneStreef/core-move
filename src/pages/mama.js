@@ -71,7 +71,7 @@ const MamaPage = () => {
             vanuit een keten. We werken aan de zwakke punten en versterkte de al
             aanwezige kracht.
           </p>
-          <p>Mogelijkheden:</p>
+          <p className="align-left">Mogelijkheden:</p>
           <ul>
             <li>
               gratis screening - status preasens -

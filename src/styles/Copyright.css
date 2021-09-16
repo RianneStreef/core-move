@@ -8,11 +8,22 @@
   font-size: 0.5em;
 }
 
-.vts {
+.legal a {
+  color: var(--color-light);
+}
+
+.legal a:visited {
+  color: var(--color-light);
+}
+
+.rs {
   font-size: 0.8em;
 }
 
-.vts a {
-  color: #000;
+.rs a {
+  color: var(--color-light);
+  text-decoration: none;
 }
+
+
 

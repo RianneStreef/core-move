@@ -29,7 +29,7 @@ const Ul = styled.ul`
     margin-right: 10px;
     color: #fff;
     margin: 15px;
-    margin-right: 40px;
+    margin-right: 20px;
     a {
       color: var(--color-dark);
       text-decoration: none;
