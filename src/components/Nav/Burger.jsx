@@ -29,12 +29,12 @@ const StyledBurger = styled.div`
     }
     &:nth-child(2) {
       transform: ${({ open }) => (open ? "translateX(100%)" : "translateX(0)")};
-      margin: ${({ open }) => (open ? 0 : "0 0 0 10px")};
+      margin: ${({ open }) => (open ? 0 : "0 0 0 0")};
       opacity: ${({ open }) => (open ? 0 : 1)};
     }
     &:nth-child(3) {
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
-      margin: ${({ open }) => (open ? 0 : "0 0 0 5px")};
+      margin: ${({ open }) => (open ? 0 : "0 0 0 0")};
     }
   }
 `;

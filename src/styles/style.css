@@ -20,7 +20,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.8;
 }
 
 h1, h2, h3, h4, p {
@@ -39,6 +38,14 @@ h3 {
 h4 {
   font-size: 1.2em;
   color: var(--color-highlight)
+}
+
+p {
+  line-height: 2;
+}
+
+li {
+  line-height: 2;
 }
 
 .button {
@@ -104,10 +111,11 @@ a.button {
 input, textarea {
   border: solid 2px var(--color-highlight);
   border-radius: 5px;
-  background-color: var(--color-dark);
   color: #fff;
-  margin: auto;
+  width: 100%;
 }
+
+
 
 ::placeholder {
   color:var(--color-highlight);

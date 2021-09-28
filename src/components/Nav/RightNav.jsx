@@ -12,6 +12,17 @@ const Ul = styled.ul`
   z-index: 10;
   padding: 20px;
   margin: 0;
+  @media (max-width: 768px) {
+    flex-flow: column nowrap;
+    background-color: #dedede;
+    position: fixed;
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+  }
 
   @media (min-width: 768px) {
     justify-content: center;
@@ -42,17 +53,6 @@ const Ul = styled.ul`
       justify-content: center;
       align-items: center;
     }
-  }
-  @media (max-width: 768px) {
-    flex-flow: column nowrap;
-    background-color: #dedede;
-    position: fixed;
-    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 300px;
-    padding-top: 3.5rem;
   }
 `;
 
