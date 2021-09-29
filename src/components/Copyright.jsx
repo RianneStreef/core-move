@@ -8,8 +8,7 @@ const Copyright = () => {
     <div className="copyright">
       <p>Copyright Core Move. Alle rechten voorbehouden.</p>
       <p className="legal">
-        Foto's zijn niet contractueel -{" "}
-        <Link to="/legal">wettelijke vermeldingen</Link>
+        Foto's zijn niet contractueel - <Link to="/legal">Disclaimer</Link>
       </p>
       <p className="rs">
         Created by: Rianne -
