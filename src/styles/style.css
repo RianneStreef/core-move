@@ -111,7 +111,7 @@ a.button {
 input, textarea {
   border: solid 2px var(--color-highlight);
   border-radius: 5px;
-  color: #fff;
+  color: #000;
   width: 100%;
 }
 
