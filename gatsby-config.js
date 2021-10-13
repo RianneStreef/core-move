@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: "https://www.coremove.nl",
     title: "core-move",
   },
   plugins: [
