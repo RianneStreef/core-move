@@ -10,6 +10,7 @@ const LegalPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Core Move </title>
+        <link rel="canonical" href="https://core-move.netlify.app/legal" />
       </Helmet>
       <Layout>
         <div className="content">

@@ -24,6 +24,7 @@ const IndexPage = () => {
           name="keywords"
           content="Core, Fysio therapie, Den Haag, balans, mama, moeder, houding"
         />
+        <link rel="canonical" href="https://core-move.netlify.app/" />
       </Helmet>
       <Layout>
         <div className="content">

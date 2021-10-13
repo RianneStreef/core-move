@@ -13,6 +13,7 @@ const TarievenPage = () => {
           name="description"
           content="Learn how to adjust • implement in your daily routine • feel the difference"
         />
+        <link rel="canonical" href="https://core-move.netlify.app/tarieven" />
       </Helmet>
       <Layout>
         <div className="content">
