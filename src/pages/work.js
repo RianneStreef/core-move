@@ -9,6 +9,8 @@ const WorkPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Core Move - Work </title>
+        <meta name="robots" content="index, follow" />
+
         <meta
           name="description"
           content="Learn how to adjust • implement in your daily routine • feel the difference"
