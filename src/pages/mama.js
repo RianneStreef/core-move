@@ -13,7 +13,7 @@ const MamaPage = () => {
           name="description"
           content="Learn how to adjust • implement in your daily routine • feel the difference"
         />
-        <link rel="canonical" href="https://core-move.netlify.app/mama" />
+        <link rel="canonical" href="https://www.coremove.nl/mama" />
       </Helmet>
       <Layout>
         <div className="content">

@@ -17,7 +17,7 @@ const BasePage = () => {
           name="description"
           content="Learn how to adjust • implement in your daily routine • feel the difference"
         />
-        <link rel="canonical" href="https://core-move.netlify.app/base" />
+        <link rel="canonical" href="https://www.coremove.nl/base" />
       </Helmet>
       <Layout>
         <div className="content">
