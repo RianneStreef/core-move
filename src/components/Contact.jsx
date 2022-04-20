@@ -17,7 +17,7 @@ const Contact = () => {
         </p>
         <p>
           WhatsApp:{" "}
-          <a className="contact-link" href="tel:+33618756511">
+          <a className="contact-link" href="tel:+31618756511">
             0618756511
           </a>
         </p>

@@ -22,7 +22,6 @@ const TarievenPage = () => {
           <h2>Tarieven</h2>
           <h3>Core•Mama en Core•Base</h3>
           <p>6 weekse training €40 per sessie 2x per week</p>
-          <p>6 weekse follow up €35 per sessie 2x per week</p>
           <p>
             Voor nu kom ik aan huis, of we trainen buiten. Ik heb ook eventueel
             een ruimte waar we terecht kunnen. Buiten Den Haag geldt een toeslag
